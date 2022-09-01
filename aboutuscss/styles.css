@@ -1,12 +1,10 @@
+/*Logo video*/
 
 .back-video{
   text-align: center;
 }
 
-
-
 /*Navigation Bar*/
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -67,7 +65,7 @@
   display: block;
 }
 
-
+/*Paragraph Section*/
 .history-row{
   width: 100%;
     text-align: justify;
@@ -92,6 +90,7 @@ h2{
   font-weight: normal;
   padding-top: 20px;
   padding-bottom: 10px;
+  text-align: center;
 
 }
 
@@ -111,6 +110,7 @@ text-align: left;
   text-align: justify;
 }
 
+/*Horizontal line*/
 
 hr{
       border: dotted black 6px;
@@ -118,6 +118,9 @@ hr{
       width: 6%;
       margin: 100px auto;
 }
+
+
+/*Footer Section*/
 
 .bottom-container{
   background-color: #66BFBF;
