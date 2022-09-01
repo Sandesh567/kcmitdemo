@@ -1,0 +1,153 @@
+
+.back-video{
+  text-align: center;
+}
+
+
+
+/*Navigation Bar*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightpink;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.history-row{
+  width: 100%;
+    text-align: justify;
+}
+
+.camera-img{
+  width: 100%;
+
+}
+
+.students-img{
+      width: 80%;
+      height: 270px;
+      float: right;
+      margin-left: 30px;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+p{
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-style: oblique;
+
+}
+.para-2{
+text-align: left;
+}
+
+
+.para{
+  text-align: justify;
+}
+
+
+hr{
+      border: dotted black 6px;
+      border-bottom: none;
+      width: 6%;
+      margin: 100px auto;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+    line-height: 2;
+    font-family: monospace;
+    font-size: 17px;
+    font-style: oblique;
+
+}
+
+h4{
+  font-size: 25px;
+  color: black;
+  text-decoration:underline;
+  font-style: oblique;
+}
+
+.copyright{
+  color: black;
+}
